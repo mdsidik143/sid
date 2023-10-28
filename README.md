@@ -1,1 +1,68 @@
-# sid
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f2e9; /* Light green background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-picture {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 10px;
+            background-image: url('file:///C:/Users/asus/Desktop/WhatsApp%20Image%202023-10-08%20at%2017.15.52_650e9a8c.jpg'); /* Absolute file path */
+            background-size: cover;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+            color: #008000; /* Light green color for the name */
+        }
+
+        .profile-title {
+            color: #888;
+        }
+
+        .profile-info {
+            margin-top: 20px;
+        }
+
+        .profile-info p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-picture"></div>
+        <h1 class="profile-name">MD SIDIK</h1>
+        <p class="profile-title">CS Engineer</p>
+        <div class="profile-info">
+            <p>Email: sidikmd42@gmail.com</p>
+            <p>Location: Chikinia, Jagatsinghpur</p>
+            <p>Website: <a href="https://rb.gy/kez17">www.prof.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
